@@ -47,13 +47,7 @@ Vous pouvez le vérifiée en tapant la commande suivant sur le terminal :
 
 Si vous voyez la version de python, ce qu'il est bien installer sur votre pc.
 
-Pour installer VS Code et Jupyter Notebook, tapez la commande ci-dessous :
-
- ```bash
- sudo apt install code (VS code)
-
- sudo apt install jupyter (Jupyter)
- ``` 
+Vous pouvez ausssi installer VS code ou jupyter sur linux.
 
 ## Utilisation :
 
