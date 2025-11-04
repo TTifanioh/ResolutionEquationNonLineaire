@@ -72,7 +72,6 @@ python3 fichier.py
 ```
 
 ---
-Auteur :  [RANDRIANOELINA Tifanioh M. F.] 
-
+Auteur :  RANDRIANOELINA Tifanioh Mahefa F.  | 
 Contact : randrianoelinatifanioh@gmail.com
 ---
