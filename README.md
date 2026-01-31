@@ -28,33 +28,22 @@ Il y en a d'autre, je vous invite à les cherches si ces outils ne vous convienn
 
 ```text
 
-|_______
-|	docs/
-|	|_______
-|	|	ResolutionEquationNonLineaire.pdf	# Support pdf 
-|	|_______
-|		ResolutionEquationNonLineaire.tex	# Code source latex 	
-|
-|_______
-	src
-	|_______
-	|	methode_dichotomie
-	|	|_______
-	|	|	dichotomie.ipynb			
-	|	|_______
-	|_______	dichotomie.py
-		methode_newton
-		|_______
-		|	newton.ipynb
-		|_______
-			newton.py
-		methode_point_fixe
-		|_______
-		|	point_fixe.ipynb
-		|_______
-			point_fixe.py
+.
+├── README.md
+├── docs
+│   ├── ResolutionEquationNonLineaire.pdf
+│   └── ResolutionEquationNonLineaire.tex
+└── src
+    ├── methode_dichotomie 
+    │   ├── dichotomie.ipynb
+    │   └── dichotomie.py
+    ├── methode_newton
+    │   ├── newton.ipynb
+    │   └── newton.py
+    └── methode_point_fixe
+        ├── point_fixe.ipynb
+        └── point_fixe.py
 ```
-
 ---
 
 ## 🧑‍💻️ Installation et utilisation :
