@@ -1,34 +1,40 @@
 # 🎯️ Résolution d'équation non linéaire
-## 📝️ Description et objectif
-Pour résoudre des équation non lineaire de type $f(x) = 0$, c'est à dire trouver une solution de cette équation. 
 
-Pour ce faire, il y a plusieurs méthode pour la résoudre un eqation non linéaire. On écrit des algo afin de la résoudre.
-Voici quelques methode que je vais vous citez :
-- Méthode de point fixe
-- Méthode de newton
-- Méthode de dichotomie
+Ce projet propose une implémentation en python de différents méthode numérique perméttant de trouver les racines (zéros) des équations non linéaire de type $f(x)=0$
 
-L'objectif de ces méthodes est d'approximée un solution d'une équation c'est à dire une valeur près
 
----
+## 🚀 À propos du projet
 
-## 🛠️ Outils:
+La résolution d'équation non linéaire est la pilier de l'analyse numérique. Ces dépôt regroupe les algorithmes les plus couramment utilisés, offrant la simplicité de mise en œuvre et la rapidité de convergence.
 
-Pour utiliser ces algorithmes dans vous besoin, il faut avoir les outils nécessaire.
-Il y en a différent outils disponible, mais je vais vous citez ces que je connaissent :
-- Jupyter Notebook
-- VS Code (Visual Studio Code)
-- Terminal
+## 🛠️ Méthode implementé
 
-Il y en a d'autre, je vous invite à les cherches si ces outils ne vous conviennent pas ou juste pour la curiosité. Mais ces sont ces outils que j'utilise en générale.
+Le projet inclus les algorithmes suivants:
+1. **Méthode de la dichotomie (ou bissection)**
+- Principe: divise l'intervalle en deux à chaque étape
+- Avantage: convergence garantie si la fonction est continue et change de signe à chaque étape
+- Inconvénient: convergence relativement lent
 
----
+2. **Méthode de Newton**
+- Principe: utilise la dérivée d'une fonction pour trouver une approximation linéaire
+- Avantage: convergence très rapide
+- Inconvénient: nécessite la connaissance du dérivée $f^{'}(x)$
 
+3. **Méthode du point fixe**
+- Principe: trouver une équation simple ayant même solution que $f(x)$
+- Avantage: convergence rapide
+- Inconvénient: recherche d'une autre équation ayant la même solution 
+
+## 📋 Prérequis
+Pour exécuter ces scripts, vous devez avoir **Python 3.x** installer ainsi que les bibliothèques suivantes (si vous utilisez des fonctions mathématiques complexes et des graphiques)
+
+'''bash
+pip install numpy matplotlib
+'''
 ## 📁️ Structure de projet
 
 ```text
-
-.
+ResolutionSystemeLineaire/
 ├── README.md
 ├── docs
 │   ├── ResolutionEquationNonLineaire.pdf
@@ -44,43 +50,46 @@ Il y en a d'autre, je vous invite à les cherches si ces outils ne vous convienn
         ├── point_fixe.ipynb
         └── point_fixe.py
 ```
----
 
-## 🧑‍💻️ Installation et utilisation :
-Assurer vous d'avoir installer python et jupyter, si ce n'est pas le cas veuillez suivre les commandes suivant :
+## 💻 Installation et utilisation 
+1. Cloner le dépôt 
 
-1. Installer python et jupyter:
- 
-Pour installer python :
-```bash
-sudo apt update & upgrade
-sudo install python
-```
-Vous pouvez vérifier si l'installation à été un succès avec la commande :
-```bash
-python3 --version
-```
-
-Pour installer jupyter:
-```bash
-sudo apt install jupyter
-```
-
-2. Cloner la dépôt:
-```bash
+'''bash
 git clone https://github.com/TTifanioh/ResolutionEquationNonLineaire.git
-```
+cd ResolutionEquationNonLineaire
+'''
 
-3. Utiliser les algorithmes:
-```bash
-python3 fichier.py  # ici fichier represente dichotomie.py ou newton.py ou point_fixe.py
-```
+2. Exécuter un script 
 
-4. Voir la solution approximer sur un graphique:
+'''bash
+python3 newton.py
+'''
 
+## 📊 Exemple de configuration 
 
-Il suffit de cliquer sur le fichier .ipynb si vous avez installer jupyter et le graphique apparaitra.
+Dans la plupart des scripts vous pouvez modifier les paramètres suivants :
+- f : la fonction à résoudre
+- a, b : l'intervalle initial pour la dichotomie 
+- x0 : le point de départ pour Newton
+- tol : pour la précision souhaité
+- max_iter: nombre maximal d'itération 
 
----
+## 🤝 Contribution
+Les contributions sont les bienvenus ! Si vous souhaite ajouter une méthode ou les améliorer les codes existant :
+1. Forkez le projet
+2. Créer votre branche de fonctionnalités 
+'''bash
+git checkout -b feature/Nouvelle méthode
+'''
+3. Commitet vos changements 
+'''bash
+git commit -m "feat : ajout de la méthode X"
+'''
+4. Pushez vers la branche
+'"bash
+git push origin feature/NouvelleMethode
+'''
+5. Ouvrez une pull requests
 
-> Auteur :  RANDRIANOELINA Tifanioh Mahefa Fandresentsoa
+### Contact
+**TTifanioh**- [Profil Github](https://github.com/TTifanioh)
