@@ -55,7 +55,7 @@ ResolutionSystemeLineaire/
 1. Cloner le dépôt 
 
 '''bash
-git clone https://github.com/TTifanioh/ResolutionEquationNonLineaire.git
+git clone https://github.com/TifaniohMF/ResolutionEquationNonLineaire.git
 cd ResolutionEquationNonLineaire
 '''
 
@@ -92,4 +92,4 @@ git push origin feature/NouvelleMethode
 5. Ouvrez une pull requests
 
 ### Contact
-**TTifanioh**- [Profil Github](https://github.com/TTifanioh)
+**TTifanioh**- [Profil Github](https://github.com/TifaniohMF)
