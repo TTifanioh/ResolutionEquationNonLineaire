@@ -92,4 +92,4 @@ git push origin feature/NouvelleMethode
 5. Ouvrez une pull requests
 
 ### Contact
-**TTifanioh**- [Profil Github](https://github.com/TifaniohMF)
+**TifaniohMF**- [Profil Github](https://github.com/TifaniohMF)
